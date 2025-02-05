@@ -9,7 +9,7 @@ const skills = [
   { name: "Python", icon: Code },
   { name: "IoT", icon: Wifi },
   { name: "Data Science", icon: Database },
-  { name: "Cloud Computing", icon: Server },
+  { name: "Cyber Security", icon: Server },
   { name: "Deep Learning", icon: Cpu },
 ]
 
