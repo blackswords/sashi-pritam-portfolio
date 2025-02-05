@@ -8,7 +8,7 @@ import type React from "react" // Added import for React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Sashi Pritam Manandi Anand - AI Engineer & Developer",
+  title: "Sashi Pritam Manandi Anand",
   description:
     "Personal portfolio of Sashi Pritam Manandi Anand, an aspiring AI Engineer and Developer specializing in Machine Learning, IoT, and Software Development.",
 }
