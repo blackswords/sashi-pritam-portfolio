@@ -82,7 +82,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center">
               <Phone className="h-6 w-6 mr-2" />
-              <span>+91 1234567890</span>
+              <span>+91 9343934320</span>
             </div>
             <div className="flex items-center">
               <Linkedin className="h-6 w-6 mr-2" />
