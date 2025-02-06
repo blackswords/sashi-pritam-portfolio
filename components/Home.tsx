@@ -23,6 +23,11 @@ const Home = () => {
                 Download Resume
               </a>
             </Button>
+            <Button asChild>
+              <a href="/SashiPritam_Coverletter.pdf" download>
+                Download Cover Letter
+              </a>
+              </Button>
             <Button asChild variant="outline">
               <a href="#contact">Contact Me</a>
             </Button>
