@@ -7,7 +7,6 @@ import { Trophy, Award, FileText, Star } from "lucide-react"
 const achievements = [
   { title: "National Championship in Karate (2018)", icon: Trophy },
   { title: "HackNova Mini Hackathon Winner", icon: Award },
-  { title: "Published Research Paper on LED - LIGHTS", icon: FileText },
   { title: "Completed Abacus till level 7", icon: Star },
 ]
 
