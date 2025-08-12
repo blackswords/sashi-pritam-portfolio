@@ -17,19 +17,18 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Sashi Pritam Manandi Anand",
+  title: "Sashi Pritam - AI Engineer & Technology Innovator",
   description:
     "Innovative AI Engineer and Technology Leader specializing in Machine Learning, Full-Stack Development, and Enterprise Solutions. Experience at NTT DATA, Intel, and Corizo.",
   keywords: "AI Engineer, Machine Learning, Software Developer, Data Science, Technology Leader, Innovation",
   authors: [{ name: "Sashi Pritam Manandi Anand" }],
   openGraph: {
-    title: "Sashi Pritam Manandi Anand - AI Engineer & Technology Innovator",
+    title: "Sashi Pritam - AI Engineer & Technology Innovator",
     description: "Innovative AI Engineer with expertise in ML, full-stack development, and leadership",
     url: "https://sashipritam.com",
     siteName: "Sashi Pritam Portfolio",
     type: "website",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
