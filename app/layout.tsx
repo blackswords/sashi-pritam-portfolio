@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   keywords: "AI Engineer, Machine Learning, Software Developer, Data Science, Technology Leader, Innovation",
   authors: [{ name: "Sashi Pritam Manandi Anand" }],
   openGraph: {
-    title: "Sashi Pritam - AI Engineer & Technology Innovator",
+    title: "Sashi Pritam Manandi Ananad",
     description: "Innovative AI Engineer with expertise in ML, full-stack development, and leadership",
     url: "https://sashipritam.com",
     siteName: "Sashi Pritam Portfolio",
