@@ -230,7 +230,25 @@ const GalleryCarousel = () => {
   const [isHovered, setIsHovered] = useState(false)
   const intervalRef = useRef<NodeJS.Timeout>()
 
-  const itemsPerView = 4
+  // Replace the fixed itemsPerView with responsive logic
+  const [itemsPerView, setItemsPerView] = useState(1)
+
+  useEffect(() => {
+    const updateItemsPerView = () => {
+      if (window.innerWidth < 640) {
+        setItemsPerView(1) // Mobile: 1 item
+      } else if (window.innerWidth < 1024) {
+        setItemsPerView(2) // Tablet: 2 items
+      } else {
+        setItemsPerView(4) // Desktop: 4 items
+      }
+    }
+
+    updateItemsPerView()
+    window.addEventListener("resize", updateItemsPerView)
+    return () => window.removeEventListener("resize", updateItemsPerView)
+  }, [])
+
   const maxIndex = Math.max(0, galleryImages.length - itemsPerView)
 
   useEffect(() => {
@@ -294,7 +312,8 @@ const GalleryCarousel = () => {
           {galleryImages.map((image, index) => (
             <motion.div
               key={index}
-              className="w-1/4 flex-shrink-0 px-3"
+              className="flex-shrink-0 px-2 sm:px-3"
+              style={{ width: `${100 / itemsPerView}%` }}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
