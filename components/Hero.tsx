@@ -30,11 +30,8 @@ const Hero = () => {
   "Technical Writer",
   "Event Organizer",
   "Marketing Strategist",
-  "Open Source Contributor",
-  "Mentor",
   "Lifelong Learner",
   "Social Impact Advocate",
-  "Leadership Champion"
 ];
 
   // Detect mobile device
