@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Sashi Pritam Manandi Anand - AI Engineer & Technology Innovator",
+  title: "Sashi Pritam Manandi Anand",
   description:
     "Innovative AI Engineer and Technology Leader specializing in Machine Learning, Full-Stack Development, and Enterprise Solutions. Experience at NTT DATA, Intel, and Corizo.",
   keywords: "AI Engineer, Machine Learning, Software Developer, Data Science, Technology Leader, Innovation",
